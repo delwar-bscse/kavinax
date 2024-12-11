@@ -1,0 +1,23 @@
+
+.slick-dots li {
+  width: 40px;
+  height: 7px;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.slick-dots li button {
+  width: 40px;
+  height: 7px;
+  border-radius: 5px;
+  margin: 0 5px;
+  background: transparent;
+}
+
+.slick-dots li button:before {
+  left: 5px;
+  width: 40px;
+  height: 7px;
+  border-radius: 5px;
+  content: '';
+  background: black;
+}

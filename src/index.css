@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .mediaIcon{
+    @apply rounded-full bg-bodyColor text-bgColor text-2xl p-3 hover:bg-opacity-90 duration-300;
+  }
+  .containerMax{
+    @apply w-full max-w-[1320px] mx-auto;
+  }
+  .payment{
+    @apply bg-bodyColor rounded px-3 min-w-[71px] max-md:min-w-[50px] h-[37px] max-md:min-h-[30px] box-border flex justify-center
+  }
+  .navLink{
+    @apply hover:border-b-2 hover:text-bgColor hover:border-bgColor duration-300 cursor-pointer font-semibold
+  }
+  .mobNavLink{
+    @apply w-full hover:border-b-2 hover:text-bgColor hover:border-bgColor duration-300 cursor-pointer text-xl py-2 pl-5 font-semibold
+  }
+  .arrowDesign{
+    @apply cursor-pointer text-4xl text-bgColor hover:text-gray-50 hover:bg-bgColor duration-300 rounded-full
+  }
+}
+
+.active {
+  color: #FF5017;
+}
+
+.scrollbar-hide::-webkit-scrollbar{
+  display: none;
+}
